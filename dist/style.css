@@ -1,0 +1,52 @@
+html,
+body{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #373A36;
+}
+.tabPage{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    border-radius: 15px;
+    height: 100%;
+    width: auto;
+    text-align: center;
+    background-color: #D48166;
+    padding: 50px;
+    margin: 50px;
+    color: #373A36;
+}
+
+
+
+.homeInfo{
+
+    border-radius: 15px;
+    height: auto;
+    width: 400px;
+    max-width: 400px;
+    background-color: #E6E2DD;
+    color:#373A36;
+    padding: 30px;
+    margin: 30px;
+}
+
+.buttonbar{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.barBtns{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border-style: none;
+
+}

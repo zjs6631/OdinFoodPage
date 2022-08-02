@@ -2,6 +2,5 @@ import {homeContent} from './mainPageLoad';
 
 console.log("index.js connected");
 
-document.body.appendChild(homeContent());
-
-
+const container = document.getElementById('content')
+container.appendChild(homeContent());
