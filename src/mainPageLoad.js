@@ -6,6 +6,7 @@ const homeContent = () => {
     //I then return the container
     const container = document.createElement('div');
     container.classList.add('tabPage');
+    container.setAttribute('id', 'homeID');
     const title = document.createElement('h1');
     title.innerHTML = "Cats and Coffee";
     const buttonBar = document.createElement('div');
