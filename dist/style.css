@@ -54,6 +54,51 @@ body{
 }
 
 #menuBody{
-    height: 400px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    height: 600px;
     width: 400px;
+    gap: 30px;
+    padding: 20px;
+}
+
+#menuBody .menuItem{
+    background-color: #E6E2DD;
+}
+
+#contactBody {
+    height: 600px;
+    width: 400px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+
+    justify-items: center;
+    align-items: center;
+}
+
+.contactCard{
+    background-color: #E6E2DD;
+    border-color: #373A36;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 15px;
+    line-height: 2;
+    width: 250px;
+}
+
+#contactTitle{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    font-size: 24px;
+    font-weight: 600;
+    background-color: #E6E2DD;
+    border-color: #373A36;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 15px;
+    width: 200px;
+    height: 50px;
 }
